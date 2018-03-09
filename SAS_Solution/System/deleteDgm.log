@@ -1,0 +1,19 @@
+NOTE: PROCEDURE PRINTTO used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.01 seconds
+      
+
+297        libname _hpdmDat "C:\Texas A&M Spring Semester\STAT
+297      ! 656\Mid-term_exam\Mid_term\Workspaces\EMWS9\HPDM";
+WARNING: Apparent symbolic reference M not resolved.
+NOTE: Libref _HPDMDAT was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: C:\Texas A&M Spring Semester\STAT 
+      656\Mid-term_exam\Mid_term\Workspaces\EMWS9\HPDM
+298        libname _hpdmDat;
+NOTE: Libref _HPDMDAT has been deassigned.
+2                                           The SAS System                16:58 Tuesday, March 6, 2018
+
+299        proc printto;
+300        run;
+
